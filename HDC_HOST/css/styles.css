@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,h2,h3{
+    color: #333;
+}
+
+p{
+    color:#70747a;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232a31;
+    padding: 0 1rem;
+}
+
+nav{
+    position: relative;
+}
+
+.logo{
+    width: 50px;
+    margin: 15px;
+
+}
+
+.navbar-item{
+    position: absolute;
+    right: 0;
+    height:80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+.navbar-item li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-item a{
+    color:#ffffff;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.navbar-item a:hover{
+    color: #ccc;
+}
+
+.default-btn{
+    padding: 15px 20px;
+    background-color: #2cc76a;
+    border-radius: 5px;
+}
+
+.navbar-item .default-btn:hover{
+    background-color: #22bb5f;
+    color: #ffffff;
+}
+
+.main-banner{
+    background-image:url(/HDC_HOST/img/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding:  10rem 0;
+    height: 100px;
+    margin-top: 0;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+}
